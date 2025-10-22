@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    /* background-color: #eee; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.card{
+    height: 150px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(147, 122, 122);
+    padding: 5px;   
+    overflow-y: scroll; 
+
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.logout{
+    margin-left: 650px;
+    background-color: royalblue;
+    color: white;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.logout:hover{
+    background-color: rgb(35, 174, 28);
+
+}
+#update{
+
+    background-color:rgb(172, 188, 236);
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#delete{
+    background-color:rgb(172, 188, 236);
+    color: rgb(33, 27, 27);
+    margin-top: 20px;
+    margin-left: 8px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+#update:hover{
+    background-color: rgb(35, 174, 28);
+}
+#delete:hover{
+    background-color: rgb(35, 174, 28);
+}
+#addTask{
+    /* margin-left: 650px; */
+    background-color: royalblue;
+    color: white;
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    margin-top: 50px;
+    border-radius: 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;   /* Distance from the bottom */
+    right: 20px;    /* Distance from the right */
+
+}
+#addTask::after {
+    content: "+";
+}
+#addTask:hover{
+    height: 90;
+    width: 90px; /* Adjust width to fit text */
+    border-radius: 100%;
+    background-image: linear-gradient(45deg, red, blue, green, yellow, purple);
+}
+#addTask:hover::after {
+    content: "Add";
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#registerCard{
+    border: 2px solid rgb(97, 92, 92);
+    height: 250px;
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+#register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registerSub{
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+}
+#registerSub:hover{
+    background-color: green;
+}

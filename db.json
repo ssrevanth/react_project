@@ -1,0 +1,125 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "supriya",
+      "password": 1234
+    },
+    {
+      "id": "aa9a",
+      "email": "kavya@gmail.com",
+      "password": "123",
+      "gender": "female"
+    },
+    {
+      "id": "f210",
+      "email": "abc@gmail.com",
+      "password": "5555",
+      "gender": "female"
+    },
+    {
+      "id": "8ea6",
+      "email": "rishi@gmail.com",
+      "password": "0000",
+      "gender": "female"
+    },
+    {
+      "id": "ad63",
+      "email": "z@gmail.com",
+      "password": "0000",
+      "gender": "male"
+    }
+  ],
+  "task": [
+    {
+      "id": "1",
+      "title": "doproject",
+      "content": "diy",
+      "userid": "aa9a"
+    },
+    {
+      "title": "friends",
+      "content": "supriya and kavya\nbahhaha\nhhaabb",
+      "userid": "f210",
+      "id": "d8a6"
+    },
+    {
+      "title": "happy",
+      "content": "keep smile",
+      "userid": "f210",
+      "id": "64c9"
+    },
+    {
+      "id": "ada0",
+      "title": "dfhjjjm",
+      "content": "jklkll",
+      "userid": "ad63"
+    },
+    {
+      "id": "bcf1",
+      "title": "dfhjjjm",
+      "content": "jklkll",
+      "userid": "ad63"
+    },
+    {
+      "id": "c564",
+      "title": "mkdjkjkjd",
+      "content": "jssjsj",
+      "userid": "f210"
+    },
+    {
+      "id": "03e4",
+      "title": "mkdjkjkjd",
+      "content": "jssjsj",
+      "userid": "f210"
+    },
+    {
+      "id": "7990",
+      "title": "jhssh",
+      "content": "bga",
+      "userid": "f210"
+    },
+    {
+      "id": "f8f8",
+      "title": "hgsg",
+      "content": "hbsss",
+      "userid": "f210"
+    },
+    {
+      "id": "24d9",
+      "title": "hgfav",
+      "content": "nnNnn",
+      "userid": "f210"
+    },
+    {
+      "id": "b929",
+      "title": "jjjjj",
+      "content": "nbf",
+      "userid": "f210"
+    },
+    {
+      "id": "d705",
+      "title": "aaaa",
+      "content": "zzzzz",
+      "userid": "f210"
+    },
+    {
+      "id": "00da",
+      "title": "zzzzz",
+      "content": "zzzzz",
+      "userid": "f210"
+    },
+    {
+      "title": "aaaa",
+      "content": "zzzzaaa",
+      "userid": "f210",
+      "id": "ffcd"
+    },
+    {
+      "id": "1ed6",
+      "title": "xxxx",
+      "content": "gb ",
+      "userid": "f210"
+    }
+  ]
+}
